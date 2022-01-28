@@ -4,11 +4,13 @@
 
 This is code written for a persistence of vision display powered by an Arduino Nano. The Arduino drives five LEDs which are rapidly updated to cause text to be displayed. 
 
+![demo image](images/POVDisplay1.gif)
+
 ## Use
 
 The string of characters in `text[]` will be displayed. 
 
-Supported characters include capital letters, numbers, spaces, and these special characters: `!"#$%&'{}*+,-./:;<=>?@` (ASCII values 32 through 90). 
+Supported characters include capital letters, numbers, spaces, and these special characters: `!"#$%&'()*+,-./:;<=>?@` (ASCII values 32 through 90). 
 
 ## How does it work? 
 
