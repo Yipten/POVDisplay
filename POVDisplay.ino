@@ -1,9 +1,3 @@
-/*
-  Persistence of Vision Display
-  Displays text with 5 LEDs
-  Andrew Sealing
-*/
-
 #include "DisplayData.h"
 
 // text to be displayed
