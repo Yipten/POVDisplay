@@ -6,11 +6,32 @@ This is code written for a persistence of vision display powered by an Arduino N
 
 ![demo image](images/POVDisplay1.gif)
 
+## Hardware
+
+### Electronics
+ 
+| Pin      | Component          |
+| -------- | ------------------ |
+| VIN      | 9V battery (+)     |
+| GND      | 9V battery (-)     |
+| D2 to D6 | LEDs               |
+| D8       | hall effect sensor |
+
+### Non-electronics
+
+
+
 ## Use
+
+### Changing displayed text
 
 The string of characters in `text[]` will be displayed. 
 
 Supported characters include capital letters, numbers, spaces, and these special characters: `!"#$%&'()*+,-./:;<=>?@` (ASCII values 32 through 90). 
+
+### Making it go
+
+To run the display, make sure the Arduino is being powered by the battery, plug in the fan, and turn it on at the desired speed. 
 
 ## How does it work? 
 
