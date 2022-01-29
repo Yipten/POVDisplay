@@ -1,9 +1,3 @@
-/*
-  Persistence of Vision Display
-  Displays text with 5 LEDs
-  Andrew Sealing
-*/
-
 #include "DisplayData.h"
 
 // text to be displayed
@@ -24,8 +18,6 @@ void setup() {
     pinMode(i, OUTPUT);
   // hall effect sensor
   pinMode(8, INPUT);
-  // error LED
-  pinMode(13, OUTPUT);
 }
 
 void loop() {
