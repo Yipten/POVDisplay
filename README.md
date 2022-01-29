@@ -2,9 +2,9 @@
 
 ## What is it? 
 
-This is code written for a persistence of vision display powered by an Arduino Nano. The Arduino drives five LEDs which are rapidly updated to cause text to be displayed. 
+This is code written for a [persistence of vision display](https://en.wikipedia.org/wiki/Persistence_of_vision#LED_POV_displays) powered by an Arduino Nano. The Arduino drives five LEDs which are rapidly updated to cause text to be displayed. 
 
-![demo image](images/POVDisplay1.gif)
+![POV display running and displaying "HAPPY NEW YEAR :D"](images/POVDisplay1.gif)
 
 The video framerate makes it look worse than it does in real life. 
 
@@ -68,12 +68,6 @@ For example, here is the data to display the letter "A":
 
 The 1s turn LEDs on, and 0s turn them off. When shown on the display, the letter "A" will look like this: 
 
-```
-  0 0 0
-0       0
-0 0 0 0 0
-0       0
-0       0
-```
+![the letter "A" being displayed](images/letter_a.png)
 
 The nested for loops in the main `loop()` function iterate through this data based on the characters in `text[]`. 
