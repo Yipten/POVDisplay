@@ -56,7 +56,7 @@ All of the display data is stored in `DisplayData::characters` in 5-by-5 boolean
 
 For example, here is the data to display the letter "A": 
 
-```
+```c
 {
     {0, 1, 1, 1, 0},  // A
     {1, 0, 0, 0, 1},
